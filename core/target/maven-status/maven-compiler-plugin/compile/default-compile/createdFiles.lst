@@ -1,0 +1,3 @@
+com\aimbra\finance\core\entities\AbstractEntity.class
+com\aimbra\finance\core\entities\Product.class
+com\aimbra\finance\core\repositories\ProductRepository.class

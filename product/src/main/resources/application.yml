@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: product
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL94Dialect
+  jmx:
+    enable: false
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/abrfin
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
